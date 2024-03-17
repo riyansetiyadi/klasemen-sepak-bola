@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+## Football League Standings Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description
+This web app is built using React.js to display and manage football club standings and matches. Users can view the standings of clubs, add new clubs, add and view matches, and update match results.
 
-## Available Scripts
+Try now https://klasemen-sepak-bola.vercel.app/ <br />
+*Note: Before accessing the website, run the API on localhost https://github.com/riyansetiyadi/klasemen-sepak-bola-api
 
-In the project directory, you can run:
+### Feature
 
-### `npm start`
+#### Viewing Club Standings
+Users can view the standings of football clubs by accessing the "Standings" page. The standings are displayed in a table format, showing the rank, club name, played matches, won matches, drawn matches, lost matches, goals for, goals against, and goal difference for each club.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Adding New Clubs
+Users can add new football clubs by accessing the "Add Club" page. They need to enter the club name, country, and city, and then submit the form to add the club to the standings.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Adding Matches
+Users can add new matches by accessing the "Add Match" page. They need to select the home team, away team, match date, and enter the match result (goals scored by each team). Then, they can submit the form to add the match to the list of matches.
 
-### `npm test`
+#### Viewing Matches
+Users can view the list of matches by accessing the "Matches" page. The matches are displayed in a table format, showing the home team, away team, match date, and match result.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Updating Match Results
+Users can update the results of matches by accessing the "Matches" page and clicking the "Edit" button next to the match they want to update. They can then edit the match result and submit the form to update the match result.
